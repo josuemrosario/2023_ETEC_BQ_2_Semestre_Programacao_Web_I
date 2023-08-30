@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 02 Acrescente borda de 1px solida preta apenas para a tabela usando BORDER: -->
+    <!--    Modifique acrescentando o elemento Th e depois TD -->
+    <!--    alinhe o texto a esquerda com TEXT-ALIGN   -->
+    <!--    deixe as bordas com uma só linha com BORDER-COLLAPSE   -->
+    <style>
+      
+      table, tr, th, td {
+        
+         border: 1px  dotted red; 
+         
+         /* 
+         border-width: 1px;
+         border-style: solid;
+         border-color: red;
+          */
+         
+         text-align: left;
+         border-collapse: collapse;
+         background-color: azure;
+      }
+
+      thead {
+        color: brown;
+      }
+
+
+      /* Aqui dentro vai o seu estilo */
+
+     </style>
+
+</head>
+<body>
+    
+  <!-- As tags usadas para criar uma tabela - (imagem de apoio)-->  
+  <!-- 01 Criar a  estrutura da Tabela abaixo com TABLE TR/TH E TR/TD-->  
+  <!-- 03 Acrescente uma linha superior com TR e TH chamada endereço com o atributo COLSPAN-->  
+  <!-- 04 Adicionar THEAD e TBODY-->  
+
+      
+
+
+      
+      <table>
+        <thead> <!-- LINHA DE TITULOS -->
+        
+          <tr> 
+            <th colspan="3"> Lista de Escolas </th>
+          </tr>
+          
+
+          <tr> 
+            <th>Nome Escola</th> 
+            <th>Endereço</th> 
+            <th>Telefone</th>
+          </tr>
+      </thead>
+     
+      <tbody>
+        <!-- SEGUNDA LINHA -->
+        <tr>
+          <td>Escola De Educação Infantil Elefante Colorido</td>
+          <td>Rua Alfredo peres</td>
+          <td>19 3298 3421</td>
+        </tr>
+        <tr>
+          <td>ETEC Lucio Madureira</td>
+          <td>Rua Francisco Chang</td>
+          <td>19 3265 9875</td>
+        </tr>
+      </tbody>
+        
+      </table>
+      
+
+      <br><br><br><br>
+      
+
+      <table>
+        <tr><th colspan="3" style="text-align: center;">Lista de escolas</th></tr>
+        <tr>
+          <th>Nome Escola</th>
+          <th>Endereço ultramega <br>grande pra ver</th></br></th>
+          <th>Telefone</th>
+        </tr>
+        <tr>
+          <td>Escola De Educação Infantil Elefante Colorido</td>
+          <td>Rua Alfredo peres</td>
+          <td>19 3298 3421</td>
+        </tr>
+        <tr>
+          <td>ETEC Lucio Madureira</td>
+          <td>Rua Francisco Chang</td>
+          <td>19 3265 9875</td>
+        </tr>
+      </table>
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+
+
+
+
+  
+</body>
+</html>
