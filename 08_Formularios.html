@@ -8,6 +8,63 @@
 </head>
 <body>
 
+    <form action="#" name="cadastro_consulta" method="get">
+        
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <label for="nome">Nome:</label>
+            <input id="nome" name="nomao" value="josue rosario" type="text" placeholder="digite seu nome" size="30" required >
+            
+            <br>
+            <label for="telefone">Telefone:</label>
+            <input id="telefone" name="telefone"  value="199747373"  type="number" maxlength="12" pattern="/([0-9]{2}/)">
+    
+            <br>
+            <label for="endereco">endereço:</label>
+            <input type="text" required placeholder="(rua),(bairro),(cidade),(estado)" size="40" maxlength="40">
+    
+        </fieldset>
+
+
+        <br>
+        <label for="senha">Senha:</label>
+        <input id="senha" name="senha" type="password" maxlength="6">
+
+        <br>
+        <label for="comentario">sintomas</label><br>
+        <textarea name="comentario" id="comentario" cols="60" rows="20"></textarea>
+
+        <br>
+        <label for="dataconsulta">Data consulta</label>
+        <input type="date" id="dataconsulta" name="dataconsulta">
+
+        <br>
+        <label for="horaconsulta">Hora da Consulta:</label>
+        <input type="time" id="horaconsulta" name="horaconsulta">
+
+        <br>
+        <select name="convenio" id="convenio">
+            <option value="bra">Bradesco</option>
+            <option value="ami">Amil</option>
+            <option value="uni">Unimed</option>
+        </select>
+
+        <br>
+        <input type="radio" name="genero" id="" value="masc"><label for="">masculino</label>
+        <input type="radio" name="genero" id="" value="fem"><label for="">feminino</label>
+
+        <br>
+        <input type="checkbox" id="facebook"  name="facebook" ><label for="facebook">facebook</label>
+        <input type="checkbox" id="instagram"  name="instagram"><label for="instagram">instagram</label>
+
+
+        <br>
+        <input type="submit" value="cadastrar">
+
+
+    </form>
+
     <!-- DURANTE A ATIVIDADE -->
     <!--   - Como a pagina principal é separada dos argumentos ? -->
     <!--   - Observe como os argumentos são separados na URL ? -->
